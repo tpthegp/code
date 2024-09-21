@@ -1,6 +1,3 @@
-
-
-
 import numpy as np 
 from matplotlib import pyplot as plt
 from matplotlib import style
@@ -18,6 +15,7 @@ def main():
     plt.xlabel('x axis')
     plt.title('Line Plot')
     plt.show()
+    print("Hello")
 
 if __name__ == '__main__':
     main()
